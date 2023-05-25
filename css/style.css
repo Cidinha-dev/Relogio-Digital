@@ -1,0 +1,48 @@
+/* ont-family:'Finger Paint', cursive; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Finger Paint', cursive;
+    color: #222;
+
+}
+body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: teal;
+}
+.container{
+    box-shadow: 0 0 15px 5px #222; 
+    border-radius: 20px;
+    padding: 1rem;
+    background-color: #fff;
+}
+.title{
+    margin: 1rem;
+}
+.clock{
+    border-style: dotted;
+    text-align: center;
+    padding: 1rem;
+}
+span{
+    font-size: 4rem;
+}
+
+@media (max-width:400px){
+
+    .title{
+        margin: 0.5rem;
+    }
+    .clock{
+        padding: 0.3rem;
+    }
+    span{
+        font-size: 3rem;
+    }
+
+}
